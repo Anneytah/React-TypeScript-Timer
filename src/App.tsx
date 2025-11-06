@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import "./App.css";
 import AddTimer from "./components/AddTimer";
 import Header from "./components/Header";
@@ -6,6 +7,7 @@ import Timers from "./components/Timers";
 import ContextApi from "./store/ContextApi";
 
 function App() {
+  
   return (
     <>
       <ContextApi>
